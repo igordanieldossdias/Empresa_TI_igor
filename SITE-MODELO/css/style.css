@@ -42,7 +42,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/background.jpg');
+    background: linear-gradient( rgba(41, 0, 95, 0.281), rgba(20, 0, 97, 0.308)),url('../img/infraestrutura-ti.jpg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,3 +102,42 @@ nav li a:hover{
         transform: scale(1);
     }
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  td:last-child {
+    font-style: italic;
+  }
+  
+  p {
+    text-decoration: dashed;
+  }
+
+  .sub_titulo{
+    text-size-adjust: var(0%);
+  }
